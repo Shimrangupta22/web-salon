@@ -1,0 +1,232 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+html,body{ 
+	width:100%;
+	height:100%;
+	background:#111;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  
+  background-image: url('/ast.jpg');
+  opacity: 500%;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+
+.logopng{
+  position: absolute;
+  height: 45vh;
+  margin: 26vh 60vh 30vh 60vh;
+}
+.logo:hover{
+  transform: scale3d(1.1, 1.1,1.1);
+}
+ 
+.slogan{
+  position: absolute;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 76vh;
+  margin-left: 45vh;
+  font-family: "Sofia", sans-serif;
+  font-size: 48px;
+}
+
+.neon{
+  
+ 
+  height:55rem;
+  width: 161vh;
+}
+
+.why{
+  opacity: 40%;
+  position:absolute;
+  height: 45vh;
+  margin-top: 32vh;
+  margin-left: 38vw;
+}
+
+/* .why:hover{
+  transform: scale3d(1.3, 1.3, 1.3);
+} */
+
+.phil{
+  
+  text-align: justify;
+  position: absolute;
+  font-family: 'Almendra SC';font-size: 22px;
+  font-size: 35px;
+  color:#fcfcfc;
+  margin-top: 35vh;
+  margin-left: 25vh;
+  margin-right: 20vh;
+  padding-top:10px ;
+}
+
+
+
+.cards{
+  margin-top: 2rem;
+  margin-left: 28rem;
+  position: absolute;
+  width: 50rem;
+}
+
+
+.loc{
+  color:  rgb(162, 162, 162);
+}
+
+.crrec {
+
+  color: rgb(162, 162, 162);
+  font-size: smaller;
+
+}
+
+.pb {
+
+  color: rgb(162, 162, 162);
+  font-size: small;
+}
+
+.db {
+  color: rgb(162, 162, 162);
+  font-size: smaller;
+}
+
+.fa {
+  color: rgb(162, 162, 162);
+}
+
+.fotcon {
+  padding-top: 0px;
+}
+
+.payment{
+  height: 100vh;
+  width: 160vh;
+
+}
+
+
+
+.pp{
+  opacity: 50%;
+  position:absolute;
+  height: 50vh;
+  margin-top: 27vh;
+  margin-left: 70vw;
+}
+
+.pp:hover{
+  transform: scale3d(1.1, 1.1,1.1);
+
+}
+
+.qr{
+  opacity: 50%;
+  position:absolute;
+  height: 50vh;
+  margin-top: 20vh;
+  margin-left: 10vw;
+}
+
+
+
+
+.sb{
+border-radius: 10px;
+background-color: #13E8E9;
+  font-size: 3vh;
+
+}
+
+
+
+
